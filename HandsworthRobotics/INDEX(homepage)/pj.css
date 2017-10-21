@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
   body {
-    background-color: #e8e7e5;
+    background-color: #2d4d82;
     margin-top:100px;
     font-family: 'Merriweather', sans-serif;
     }
@@ -20,9 +20,13 @@
   }
 
   .logo{
-    padding-left:15px;
+    margin-left:15px;
   }
 
+  .logo:hover {
+    border-radius: 7px;
+    box-shadow: 1px 1px 35px 1px white;
+  }
 
   nav {
     text-align: center;
@@ -48,7 +52,6 @@
     font-size: 14px;
     color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
-    text-decoration: none;
   }
   nav > ul > li:hover {
     background: #d5d5d5;

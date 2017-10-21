@@ -1,16 +1,10 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-/*
-figure out how to make drop down menu above the wrapper and get that box shadow
-on the wrapper bro.
-
-*/
 
 body {
-  background-color: #e8e7e5;
-
-}
+  background-color: #2d4d82;
+  }
 
 header {
   height:130px;
@@ -22,19 +16,22 @@ header {
   margin-bottom: 10px;
   position:fixed;
   border:10px;
-}
 
+}
+/* the HSS robotics club logo in the top right*/
 .logo{
-  padding-left:15px;
+  margin-left:15px;
+
 }
 
 
+/* The nav bar (in the header)code that i copied from DevTips*/
 nav {
   text-align: center;
   margin-top: 40px;
   margin-right:300px;
   z-index: 5;
-}
+  }
 nav > ul {
   list-style: none;
   padding: 0;
@@ -65,14 +62,17 @@ ul.drop-menu {
   left: 0%;
   width: 100%;
   padding: 0;
+
 }
 ul.drop-menu li {
   background: #666;
   color: rgba(255, 255, 255, 0.7);
-}
+  }
+
 ul.drop-menu li:hover {
   background: #606060;
 }
+
 ul.drop-menu li:last-child {
   border-radius: 0px 0px 5px 5px;
 }
@@ -84,6 +84,11 @@ ul.drop-menu li {
 li:hover > ul.drop-menu li {
   display: block;
 }
+/*The wrapper where all of that juicy content goes*/
+.textdec {
+  text-decoration: none;
+
+}
 
 .wrapper {
     clear: both;
@@ -94,55 +99,47 @@ li:hover > ul.drop-menu li {
     margin-left: auto;
     max-width: 800px;
     width: 940px;
-    height:100%;
-    background-color:white;
+    height:1000px;
+    background-color:#f9f9f9;
     padding:15px;
     border-radius: 10px;
+    box-shadow: 1px 1px 35px 1px black;
 
   }
+/*All paragraph styling */
+.pstyle {
+  font-family: 'Merriweather', sans-serif;
+  font-size:15px;
+  width:300px;
+  }
 
-
-
-
-
-
-
-
-/*
-header {
-  height:150px;
-  width:100%;
-  background:#d6d8db;
-  position:fixed;
-  top:0;
+#toprightp {
+  float:right;
+  margin-right: 180px;
 }
 
-.logo {
+
+#topleftp {
 float:left;
-padding:15px;
-  }
-
-nav {
-  padding: 50px;
-  text-align: center;
+margin-top: 150px;
+margin-left:80px;
 
 }
-
-a {
-  background:#d5d5d5;
-  height:50px;
-  font-family: "Roboto Mono", serif;
-  font-size: 18px;
-  text-decoration: none;
-  color:#4e4e4f;
-  position:inline-block;
-  margin-left: 60px;
-  text-transform: uppercase;
-
+#bigrightimg {
+  width:900px;
+  height:900px;
 }
 
-a:hover {
-  font-size:22px;
-  color:black;
 
+/*First top left image*/
+#leftimg {
+  width:300px;
+  align:left;
+}
+
+/*Second image down on the right*/
+#rightimg {
+  width:400px;
+  float:right;
+  margin-top: 100px;
 }

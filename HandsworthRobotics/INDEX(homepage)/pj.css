@@ -3,21 +3,19 @@
 
   body {
     background-color: #2d4d82;
-    margin-top:100px;
     font-family: 'Merriweather', sans-serif;
+    margin:none;
     }
 
   header {
     height:130px;
-    width:100%;
+    width:99%;
     background:gold;
     top:0;
     left:0;
     padding:8px;
-    margin-bottom: 10px;
-    position:fixed;
-    border:10px;
-  }
+    position:static;
+    }
 
   .logo{
     margin-left:15px;
@@ -30,7 +28,7 @@
 
   nav {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right:300px;
     z-index: 5;
   }
@@ -39,8 +37,6 @@
     padding: 0;
     display:inline-block;
     background: #ddd;
-    border-radius: 5px;
-
   }
   nav > ul > li {
     float: left;
@@ -87,7 +83,7 @@
   .wrapper {
       clear: both;
       margin: 0 auto;
-      margin-top: 145px;
+      margin-top:0px;
       margin-right: auto;
       margin-bottom: 0px;
       margin-left: auto;
@@ -96,9 +92,11 @@
       height:100%;
       background-color:white;
       padding:20px;
-      border-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0px 20px 40px  black;
 
-    }
+       }
 
 
 .divider {

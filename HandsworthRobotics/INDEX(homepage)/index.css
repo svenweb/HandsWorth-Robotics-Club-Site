@@ -4,6 +4,7 @@
 
 body {
   background-color: #2d4d82;
+  margin:0;
   }
 
   header {
@@ -12,7 +13,7 @@ body {
     background:gold;
     padding:8px;
     position:static;
-    margin:none;
+    margin:0;
   }
 
 /* the HSS robotics club logo in the top right*/
@@ -101,7 +102,8 @@ li:hover > ul.drop-menu li {
   padding:20px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow: 0px 20px 40px  black;
+  box-shadow: 2px 27px 36px  black;
+  margin-bottom:30px;
 
   }
 /*All paragraph styling */

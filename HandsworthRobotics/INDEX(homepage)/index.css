@@ -4,18 +4,18 @@
 
 body {
   background-color: #2d4d82;
+  margin:0;
   }
 
-header {
-  height:130px;
-  width:100%;
-  background:gold;
-  padding:10px;
-  position:relative;
-  border:10px;
-  top:0;
-  left:0;
-}
+  header {
+    height:130px;
+    width:99%;
+    background:gold;
+    padding:8px;
+    position:static;
+    margin:0;
+  }
+
 /* the HSS robotics club logo in the top right*/
 .logo{
   margin-left:15px;
@@ -89,21 +89,21 @@ li:hover > ul.drop-menu li {
 }
 
 .wrapper {
-    clear: both;
-    margin: 0 auto;
-    top:0;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    max-width: 800px;
-    width: 940px;
-    height:1000px;
-    background-color:#f9f9f9;
-    padding:15px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 1px 1px 35px 1px black;
+  clear: both;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  max-width: 800px;
+  width: 940px;
+  height:1000px;
+  background-color:white;
+  padding:20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 27px 36px  black;
+  margin-bottom:30px;
 
   }
 /*All paragraph styling */

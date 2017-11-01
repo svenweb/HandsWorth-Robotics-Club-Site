@@ -4,8 +4,10 @@
   body {
     background-color: #2d4d82;
     font-family: 'Merriweather', sans-serif;
+    margin:0;
     }
 
+<<<<<<< HEAD
     header {
       height:130px;
       width:100%;
@@ -15,6 +17,16 @@
       border:10px;
       top:0;
       left:0;
+=======
+  header {
+    height:130px;
+    width:99%;
+    background:gold;
+    top:0;
+    left:0;
+    padding:8px;
+    position:static;
+>>>>>>> 5dcd04639604fa16e189dba68a91ccaa177cf806
     }
 
   .logo{
@@ -28,7 +40,7 @@
 
   nav {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right:300px;
     z-index: 5;
   }
@@ -37,8 +49,6 @@
     padding: 0;
     display:inline-block;
     background: #ddd;
-    border-radius: 5px;
-
   }
   nav > ul > li {
     float: left;
@@ -85,21 +95,34 @@
   .wrapper {
       clear: both;
       margin: 0 auto;
+<<<<<<< HEAD
       top:0;
       margin-top: 0px;
+=======
+      margin-top:0px;
+>>>>>>> 5dcd04639604fa16e189dba68a91ccaa177cf806
       margin-right: auto;
       margin-bottom: 0px;
       margin-left: auto;
       max-width: 800px;
       width: 940px;
+<<<<<<< HEAD
       height:1000px;
       background-color:#f9f9f9;
       padding:15px;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       box-shadow: 1px 1px 35px 1px black;
+=======
+      height:100%;
+      background-color:white;
+      padding:20px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0px 20px 40px  black;
+>>>>>>> 5dcd04639604fa16e189dba68a91ccaa177cf806
 
-    }
+       }
 
 .divider {
   width: 800px;

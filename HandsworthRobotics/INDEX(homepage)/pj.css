@@ -3,21 +3,19 @@
 
   body {
     background-color: #2d4d82;
-    margin-top:100px;
     font-family: 'Merriweather', sans-serif;
     }
 
-  header {
-    height:130px;
-    width:100%;
-    background:gold;
-    top:0;
-    left:0;
-    padding:8px;
-    margin-bottom: 10px;
-    position:fixed;
-    border:10px;
-  }
+    header {
+      height:130px;
+      width:100%;
+      background:gold;
+      padding:10px;
+      position:relative;
+      border:10px;
+      top:0;
+      left:0;
+    }
 
   .logo{
     margin-left:15px;
@@ -87,19 +85,21 @@
   .wrapper {
       clear: both;
       margin: 0 auto;
-      margin-top: 145px;
+      top:0;
+      margin-top: 0px;
       margin-right: auto;
       margin-bottom: 0px;
       margin-left: auto;
       max-width: 800px;
       width: 940px;
-      height:100%;
-      background-color:white;
-      padding:20px;
-      border-radius: 10px;
+      height:1000px;
+      background-color:#f9f9f9;
+      padding:15px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 1px 1px 35px 1px black;
 
     }
-
 
 .divider {
   width: 800px;
